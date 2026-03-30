@@ -78,6 +78,14 @@ target_include_directories(
   ../third_party/boringssl/src/include/
 )
 
+target_link_options(
+  webcrypto
+
+  PRIVATE
+
+  "-Wl,-z,max-page-size=16384"
+)
+
 set_target_properties(
   webcrypto
 
