@@ -18,7 +18,7 @@ description: Cross-platform implementation of Web Cryptography APIs for Flutter.
 repository: https://github.com/google/webcrypto.dart
 
 environment:
-  sdk: ^3.10.0
+  sdk: ^3.8.0
   flutter: '>=3.24.0'
 
 dependencies:
